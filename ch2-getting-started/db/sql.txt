@@ -1,0 +1,13 @@
+create table Customer(
+    CustomerId int not null auto_increment primary key,
+    CutomerName varchar(100) not null,
+    SSN varchar(100) not null
+);
+
+insert into Customer(
+    CustomerName,
+    SSN
+) values (
+    "test_user",
+    "1234"
+);
