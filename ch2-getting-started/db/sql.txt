@@ -1,6 +1,6 @@
 create table Customer(
     CustomerId int not null auto_increment primary key,
-    CutomerName varchar(100) not null,
+    CustomerName varchar(100) not null,
     SSN varchar(100) not null
 );
 

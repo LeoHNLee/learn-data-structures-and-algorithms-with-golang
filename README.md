@@ -6,4 +6,7 @@
 - slice
 - map
 - db(MySQL)
+    ```shell
+    go get github.com/go-sql-driver/mysql
+    ```
 - web
